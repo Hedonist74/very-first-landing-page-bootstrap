@@ -1,0 +1,529 @@
+/*  STYLE RESET START */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	color: #111;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+textarea {
+	resize: vertical;
+}
+
+/* STYLE RESET END */ /* DEFAULT CLASS START */
+
+.black-bg {
+	background-color: #111;
+}
+
+.grey-bg {
+	background-color: #f8f8f8;
+}
+
+.border-top {
+	border-top: 1px solid rgba(19, 19, 19, .08);
+}
+
+.title.text-white {
+	color: #fff;
+}
+
+.title.text-light {
+	font-weight: 300;
+	letter-spacing: 0.3em;
+}
+
+.help-info {
+	display: inline;
+	line-height: 3.2em;
+	color: #aaa;
+}
+
+.sub-title {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	letter-spacing: .4em;
+	color: #999;
+	text-transform: uppercase;
+}
+
+/* DEFAULT CLASS END */ /* DEFAULT COMPONENTS START */
+
+.default-section {
+	padding: 140px 0;
+}
+
+.title {
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+	letter-spacing: .5em;
+	text-transform: uppercase;
+	margin-bottom: 75px;
+	font-weight: 400;
+}
+
+.title-small {
+	font-family: 'Dosis', sans-serif;
+	font-size: 14px;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-weight: 400;
+	line-height: 1.85;
+}
+
+.title-grey {
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	line-height: 1.63em;
+	letter-spacing: .3em;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.title.text-white {
+	color: #fff;
+}
+
+.title.text-light {
+	font-weight: 300;
+	letter-spacing: .3em;
+}
+
+.footer-title {
+	font-family: 'Dosis', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: .4em;
+	color: #333;
+	text-transform: uppercase;
+}
+
+.footer-title-small {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	color: #777;
+	margin-top: 15px;
+}
+
+blockquote {
+	padding: 0;
+	margin: 0;
+	border: none;
+	font-size: 24px;
+	line-height: 1.6;
+	color: #777;
+}
+
+blockquote span {
+	font-size: 11px;
+	font-weight: 400;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+
+.text-section {
+	font-size: 15px;
+	line-height: 1.73;
+	color: #777;
+}
+
+.text-section-light {
+	font-size: 14px;
+	line-height: 1.85;
+	color: #777;
+}
+
+.btn {
+	letter-spacing: .2em;
+	padding: 10px 40px;
+	border: none;
+	text-transform: uppercase;
+	border-radius: 2px;
+	font-weight: 400;
+}
+
+.btn-xs {
+	font-size: 11px;
+	color: #777;
+	height: 29px;
+	line-height: .5;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: rgba(17, 17, 17, .1);
+}
+
+.btn-xs:hover {
+	background-color: rgba(17, 17, 17, .2);
+}
+
+.btn.btn-dark {
+	background-color: #323232;
+	color: #fff;
+	font-size: 13px;
+	letter-spacing: .2em;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.btn.btn-dark:hover {
+	background-color: rgba(50, 50, 50, .9);
+	color: rgba(255, 255, 255, .9);
+}
+
+.btn.btn-default {
+	background-color: rgba(255, 255, 255, .8);
+	color: #111;
+}
+
+.btn.btn-default:hover {
+	background-color: rgba(255, 255, 255, .9);
+}
+
+.default-icon-box {
+	font-size: 42px;
+	color: #111;
+	padding-bottom: 20px;
+}
+
+.rhomb-icon {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	text-align: center;
+	line-height: 23px;
+	border-radius: 2px;
+	transform: rotate(45deg);
+	font-size: 14px;
+}
+
+.rhomb-icon > * {
+	transform: rotate(-45deg);
+}
+
+.rhomb-icon.black-icon {
+	background-color: #111;
+	color: #fff;
+}
+
+.rhomb-icon.white-icon {
+	background-color: #fff;
+	color: #111;
+	border: 1px solid #323232;
+}
+
+.rhomb-icon.transparent-icon {
+	color: #111;
+	border: 1px solid rgba(0, 0, 0, .7);
+}
+
+.form-control {
+	height: 38px;
+	border-radius: 2px;
+	border-color: #dfdfdf;
+	font-size: 12px;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	color: #777;
+	box-shadow: none;
+}
+
+.form-control:focus {
+	border-color: #bfbebe;
+	box-shadow: none;
+}
+
+textarea.form-control {
+	min-height: 86px;
+}
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+/* DEFAULT COMPONENT END */ /* HEADER START */
+
+.header {
+	padding: 28px 0;
+	overflow: hidden;
+	background-color: #191919;
+}
+
+.header .container-fluid .header-nav {
+	overflow: hidden;
+}
+
+.header .container-fluid .header-nav li {
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 21px;
+	color: rgba(255, 255, 255, .75);
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+}
+
+.header .container-fluid .header-nav li + li {
+	margin-left: 30px;
+}
+
+/* HEADER END */ /* MAIN + INNER START */
+
+.main .inner {
+	height: 100vh;
+	position: relative;
+	background-color: #191919;
+}
+
+.main .inner .inner-content {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	padding-top: 78px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.main .inner .inner-content h6 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 1;
+	margin-bottom: 11vh;
+	text-transform: uppercase;
+	letter-spacing: 1.7em;
+	text-indent: 1.7em;
+	color: rgba(254, 254, 254, .9);
+}
+
+.main .inner .inner-content span {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+	color: rgba(244, 244, 244, .2);
+}
+
+/* MAIN + INNER END */ /* CUSTOM STYLE START */
+
+.our-team {
+	margin-top: 100px;
+}
+
+.team-person-info {
+	padding: 25px 5px 0;
+	font-family: 'Dosis', sans-serif;
+	color: #777;
+	font-weight: 400;
+	letter-spacing: 0.4em;
+	text-transform: uppercase;
+}
+
+.team-person-info span {
+	display: block;
+}
+
+.team-person-info span + span {
+	margin-top: 12px;
+}
+
+.team-person-info .team-person-name {
+	font-size: 15px;
+}
+
+.team-person-info .team-person-role {
+	font-size: 12px;
+}
+
+.latest-news-title {
+	font-family: 'Dosis', sans-serif;
+	color: #777;
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+
+.lets-talk-content {
+	padding: 140px 0;
+}
+
+.lets-talk-content .title {
+	margin-bottom: 22px;
+}
+
+.lets-talk-content p {
+	color: rgba(255, 255, 255, .70);
+	margin-bottom: 40px;
+}
+
+.lets-talk-img {
+	margin-top: -32px;
+}
+
+.portfolio p {
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+.small-section {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.small-section > .title {
+	margin-bottom: 20px;
+}
+
+.space-after-row + .space-after-row {
+	padding-top: 70px;
+}
+
+.contact-item-icon, .contact-item-content {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contact .contact-item {
+	padding-left: 5px;
+}
+
+.contact-item-content {
+	font-size: 12px;
+	color: #777;
+	padding-left: 10px;
+}
+
+.contact-item-content .contact-title {
+	padding-bottom: 10px;
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	color: #999;
+	letter-spacing: .2em;
+}
+
+.contact-item-content span{
+	display: block;
+}
+
+.contact form {
+	margin-top: 80px;
+}
+
+.form-col {
+	width: 50%;
+	padding: 0 5px;
+	float: left;
+}
+
+.form-col-wrap {
+	overflow: hidden;
+	margin: 0 -5px;
+}
+
+.form-submit {
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.form-submit button.btn.btn-dark {
+	float: right;
+}
+
+.small-section .form-group {
+	margin-bottom: 20px;
+}
+
+.small-section .form-group input.form-control {
+	max-width: 300px;
+	display: inline;
+	vertical-align: middle;
+}
+
+.latest-news .heading-latest-news {
+	overflow: hidden;
+}
+
+.latest-news .heading-latest-news > .title {
+	float: left;
+}
+
+.latest-news .heading-latest-news > .sub-title {
+	float: right;
+	line-height: 2;
+}
+
+.latest-news-item > .text-section {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.latest-news-item > .latest-news-title {
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+/* FOOTER START */
+
+.footer-content {
+	padding-top: 140px;
+	padding-bottom: 60px;
+}
+
+.footer-nav li {
+	display: inline-block;
+}
+
+.footer-nav li + li {
+	padding-left: 12px;
+}
+
+.footer-nav {
+	padding-top: 25px;
+	padding-bottom: 110px;
+}
+
+.footer-nav i {
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+.footer-content > span {
+	display: block;
+}
+
+/* FOOTER END */ /* CUSTOM STYLE END */
