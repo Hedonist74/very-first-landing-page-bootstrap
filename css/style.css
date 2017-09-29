@@ -134,20 +134,26 @@ textarea {
 	margin-top: 15px;
 }
 
-blockquote {
+.about-us blockquote {
+	border: none;
 	padding: 0;
-	margin: 0;
 	border: none;
 	font-size: 24px;
 	line-height: 1.6;
 	color: #777;
 }
 
-blockquote span {
+.about-us blockquote span {
 	font-size: 11px;
 	font-weight: 400;
 	letter-spacing: .2em;
 	text-transform: uppercase;
+}
+
+@media (max-width: 991) {
+	.about-us blockquote {
+		margin-bottom: 30px;
+	}
 }
 
 .text-section {
@@ -183,6 +189,12 @@ blockquote span {
 
 .btn-xs:hover {
 	background-color: rgba(17, 17, 17, .2);
+}
+
+@media (max-width: 991px) {
+	.latest-news .btn-xs {
+		margin-bottom: 30px;
+	}
 }
 
 .btn.btn-dark {
@@ -307,11 +319,11 @@ textarea.form-control {
 	background-color: #191919;
 }
 
-.header .container-fluid .header-nav {
+.header .header-nav {
 	overflow: hidden;
 }
 
-.header .container-fluid .header-nav li {
+.header-nav li {
 	display: inline-block;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -322,8 +334,47 @@ textarea.form-control {
 	text-transform: uppercase;
 }
 
-.header .container-fluid .header-nav li + li {
+.header .header-nav li + li {
 	margin-left: 30px;
+}
+
+.navbar-toggle {
+	padding: 0;
+	margin: 4px 0 0;
+	border: none;
+
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+@media (max-width: 767px) {
+	.header {
+		overflow: initial;
+	}
+	#header-nav {
+		/*margin: 0;*/
+		padding: 20px 15px;
+		background-color: #191919;
+		border: none;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 100%;
+		text-align: right;
+		-webkit-box-shadow: none;
+	}
+	.container-fluid > .navbar-collapse {
+		margin: 0;
+	}
+	.header .header-nav > li {
+		display: block;
+	}
+	.header-nav li + li {
+		margin-left: 0;
+		margin-top: 15px;
+	}
 }
 
 /* HEADER END */ /* MAIN + INNER START */
@@ -350,7 +401,7 @@ textarea.form-control {
 	transform: translateY(-50%);
 }
 
-.main .inner .inner-content h6 {
+.inner-content h6 {
 	font-family: 'Dosis', sans-serif;
 	font-weight: 400;
 	font-size: 30px;
@@ -366,6 +417,20 @@ textarea.form-control {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 19px;
 	color: rgba(244, 244, 244, .2);
+}
+
+@media (max-width: 991px) {
+	.inner {
+		height: auto;
+		padding: 100px 0;
+	}
+	.inner .inner-content h6 {
+		font-size: 25px;
+		margin-bottom: 20vh;
+	}
+	.inner-content {
+		padding-top: 40px;
+	}
 }
 
 /* MAIN + INNER END */ /* CUSTOM STYLE START */
@@ -397,6 +462,12 @@ textarea.form-control {
 
 .team-person-info .team-person-role {
 	font-size: 12px;
+}
+
+@media (max-width: 767px) {
+	.team-person {
+		margin-top: 30px;
+	}
 }
 
 .latest-news-title {
@@ -453,7 +524,7 @@ textarea.form-control {
 }
 
 .contact-item-content {
-	font-size: 12px;
+	font-size: 15px;
 	color: #777;
 	padding-left: 10px;
 }
@@ -494,6 +565,20 @@ textarea.form-control {
 	float: right;
 }
 
+@media (max-width: 1199px) {
+	.contact-item-content {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 991px) {
+	.contact-item {
+		margin-bottom: 30px;
+	}
+}
+
+/* CONTACT BLOCK END */
+
 .small-section .form-group {
 	margin-bottom: 20px;
 }
@@ -531,35 +616,6 @@ textarea.form-control {
 	width: 100%;
 }
 
-/* FOOTER START */
-
-.footer-content {
-	padding-top: 140px;
-	padding-bottom: 60px;
-}
-
-.footer-nav li {
-	display: inline-block;
-}
-
-.footer-nav li + li {
-	padding-left: 12px;
-}
-
-.footer-nav {
-	padding-top: 25px;
-	padding-bottom: 110px;
-}
-
-.footer-nav i {
-	padding-left: 5px;
-	padding-bottom: 5px;
-}
-
-.footer-content > span {
-	display: block;
-}
-
 .services-tabs .tablist-title {
 	display: block;
 }
@@ -592,6 +648,17 @@ textarea.form-control {
 	margin-bottom: 75px;
 }
 
+.services blockquote {
+	border: none;
+}
+
+@media (max-width: 991px) {
+	.services-tabs .tablist-title {
+		font-size: 13px;
+		letter-spacing: .2em;
+	}
+}
+
 .portfolio .nav-tabs .tablist-title {
 	display: inline-block;
 }
@@ -606,7 +673,7 @@ textarea.form-control {
 	margin-left: 65px;
 }
 
-body > div.main > div.portfolio > div.default-section {
+.portfolio .default-section {
 	padding-bottom: 50px;
 }
 
@@ -632,6 +699,38 @@ body > div.main > div.portfolio > div.default-section {
 .portfolio-tabs {
 	overflow: hidden;
 }
+
+.portfolio .portfolio-tabs .tab-content {
+	margin: 0 -4px;
+}
+
+@media (max-width: 767px) {
+	.portfolio .picture  {
+		width: 50%;
+	}
+}
+
+@media (max-width: 599px) {
+	.portfolio .picture  {
+		width: 100%;
+	}
+}
+
+
+/*LIKE OUR CREATIVE WORKS (BLACK)*/
+
+/*WHY CHOOSE US (BIG BLOCK)*/
+@media (max-width: 991px) {
+	.why-choose-us .text-section-light {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.space-after-row + .space-after-row {
+		padding-top: 0;
+	}
+}
+
+/* REVIEWS-CAROUSEL START */
 
 .reviews {
 	background-color: #000;
@@ -683,6 +782,14 @@ body > div.main > div.portfolio > div.default-section {
 	position: static;
 }
 
+@media (max-width: 991px) {
+	.reviews .carousel-caption {
+		padding: 0 30px;
+	}
+}
+
+/* REVIEWS-CAROUSEL END */
+
 .map {
 	position: relative;
 }
@@ -724,6 +831,37 @@ body > div.main > div.portfolio > div.default-section {
 	padding-left: 2px;
 }
 
+/* FOOTER START */
+
+.footer-content {
+	padding-top: 140px;
+	padding-bottom: 60px;
+}
+
+.footer-nav li {
+	display: inline-block;
+}
+
+.footer-nav li + li {
+	padding-left: 12px;
+}
+
+.footer-nav {
+	padding-top: 25px;
+	padding-bottom: 110px;
+}
+
+.footer-nav i {
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+.footer-content > span {
+	display: block;
+}
+
+/* FOOTER END */
+
 .anchor-up {
 	position: fixed;
 	bottom: 30px;
@@ -738,4 +876,4 @@ body > div.main > div.portfolio > div.default-section {
 	color: #000;
 }
 
-/* FOOTER END */ /* CUSTOM STYLE END */
+/* CUSTOM STYLE END */
