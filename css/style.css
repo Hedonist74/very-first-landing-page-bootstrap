@@ -155,7 +155,7 @@ blockquote span {
 	margin-top: 15px;
 }
 
-} /* ^RULE FOR ABOUT US AND SERVICES*/
+/* ^RULE FOR ABOUT US AND SERVICES*/
 
 .text-section {
 	font-size: 15px;
@@ -171,8 +171,10 @@ blockquote span {
 
 @media (max-width: 767px) {
 	.text-section p{
-		margin-bottom: 30px;
+	margin-bottom: 30px;
 	}
+}
+
 
 .btn {
 	letter-spacing: .2em;
