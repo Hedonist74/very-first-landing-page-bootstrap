@@ -56,6 +56,6 @@
 |.small-section form input, .small-section .btn-dark, .small-section .form-group input.form-control, .form-group a, .form-col|767|
 |.small-section .form-group input.form-control, .form-group a|479|
 |.form-submit .btn.btn-dark, .form-submit, .form-submit .help-info|767|
-|1.contact-item-content|1199|
-|1.contact-item|991|
-|1.form-col|599|
+|.contact-item-content|1199|
+|.contact-item|991|
+|.form-col|599|
