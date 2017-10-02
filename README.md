@@ -35,7 +35,7 @@
 -----------------------------
 
 |Кому|max-width|
-|:-------------:|:-------------|:-----:|
+|:-------------|:-----:|
 |.text-section p|767|
 |.latest-news .btn-xs|991|
 |.header, #header-nav, .container-fluid > .navbar-collapse, .header .header-nav > li, .header-nav li + li|767|
