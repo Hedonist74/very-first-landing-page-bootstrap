@@ -34,28 +34,28 @@
 КОНТРОЛЬНЫЕ ТОЧКИ:
 -----------------------------
 
-|Строка|Кому|max-width|
+|Кому|max-width|
 |:-------------:|:-------------|:-----:|
-|179|.text-section p|767|
-|200|.latest-news .btn-xs|991|
-|363|.header, #header-nav, .container-fluid > .navbar-collapse, .header .header-nav > li, .header-nav li + li|767|
-|447|.inner, .inner .inner-content h6, .inner-content|991|
-|461|.inner-content h6, .inner .rhomb-icon, .inner .rhomb-icon span.fa|767|
-|480|.inner-content span, .inner-content h6|599|
-|493|.inner-content h6, .inner .rhomb-icon, .inner .rhomb-icon span.fa|479|
-|512|.about-us blockquote|991|
-|547|.team-person|767|
-|584|.services-tabs .tablist-title|991|
-|591|.services-tabs .nav-tabs li|767|
-|689|.portfolio .picture, .portfolio-tabs .nav-tabs li, .portfolio-tabs .nav-tabs li + li|767|
-|702|.portfolio .picture|599|
-|713|.why-choose-us .text-section-light, .why-choose-us .space-after-row + .space-after-row|991|
-|826|.reviews .carousel-caption, .reviews .carousel-caption p|991|
-|836|.reviews .title.text-white.text-light, .reviews .carousel-caption p|599|
-|875|.latest-news .title span, .latest-news .heading-latest-news .sub-title|479|
-|912|.small-section form input, .small-section .btn-dark, .small-section .form-group input.form-control, .form-group a, .form-col|767|
-|930|.small-section .form-group input.form-control, .form-group a|479|
-|938|.form-submit .btn.btn-dark, .form-submit, .form-submit .help-info|767|
-|1006|.contact-item-content|1199|
-|1013|.contact-item|991|
-|1018|.form-col|599|
+|.text-section p|767|
+|.latest-news .btn-xs|991|
+|.header, #header-nav, .container-fluid > .navbar-collapse, .header .header-nav > li, .header-nav li + li|767|
+|.inner, .inner .inner-content h6, .inner-content|991|
+|.inner-content h6, .inner .rhomb-icon, .inner .rhomb-icon span.fa|767|
+|.inner-content span, .inner-content h6|599|
+|.inner-content h6, .inner .rhomb-icon, .inner .rhomb-icon span.fa|479|
+|.about-us blockquote|991|
+|.team-person|767|
+|.services-tabs .tablist-title|991|
+|.services-tabs .nav-tabs li|767|
+|.portfolio .picture, .portfolio-tabs .nav-tabs li, .portfolio-tabs .nav-tabs li + li|767|
+|.portfolio .picture|599|
+|.why-choose-us .text-section-light, .why-choose-us .space-after-row + .space-after-row|991|
+|.reviews .carousel-caption, .reviews .carousel-caption p|991|
+|.reviews .title.text-white.text-light, .reviews .carousel-caption p|599|
+|.latest-news .title span, .latest-news .heading-latest-news .sub-title|479|
+|.small-section form input, .small-section .btn-dark, .small-section .form-group input.form-control, .form-group a, .form-col|767|
+|.small-section .form-group input.form-control, .form-group a|479|
+|.form-submit .btn.btn-dark, .form-submit, .form-submit .help-info|767|
+|1.contact-item-content|1199|
+|1.contact-item|991|
+|1.form-col|599|
