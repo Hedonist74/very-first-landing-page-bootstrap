@@ -39,11 +39,6 @@ textarea {
 /* STYLE RESET END */
 /* DEFAULT CLASS START */
 
-.main {
-	overflow: hidden;
-}/* ^CAROUSEL ANCHOR BUG-FIX */
-
-
 .black-bg {
 	background-color: #111;
 }
@@ -80,8 +75,36 @@ textarea {
 	text-transform: uppercase;
 }
 
+.title.text-white {
+	color: #fff;
+}
+
+.title.text-light {
+	font-weight: 300;
+	letter-spacing: .3em;
+}
+
+blockquote {
+	padding: 0;
+	border: none;
+	font-size: 24px;
+	line-height: 1.6;
+	color: #777;
+}
+
+blockquote span {
+	font-size: 11px;
+	font-weight: 400;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+
 /* DEFAULT CLASS END */
 /* DEFAULT COMPONENTS START */
+
+.main {
+	overflow: hidden;
+}/* ^CAROUSEL ANCHOR BUG-FIX */
 
 .default-section {
 	padding: 140px 0;
@@ -115,15 +138,6 @@ textarea {
 	margin-bottom: 15px;
 }
 
-.title.text-white {
-	color: #fff;
-}
-
-.title.text-light {
-	font-weight: 300;
-	letter-spacing: .3em;
-}
-
 .footer-title {
 	font-family: 'Dosis', sans-serif;
 	font-size: 15px;
@@ -141,10 +155,6 @@ textarea {
 	margin-top: 15px;
 }
 
-@media (max-width: 767px) {
-	.text-section p{
-		margin-bottom: 30px;
-	}
 } /* ^RULE FOR ABOUT US AND SERVICES*/
 
 .text-section {
@@ -158,6 +168,11 @@ textarea {
 	line-height: 1.85;
 	color: #777;
 }
+
+@media (max-width: 767px) {
+	.text-section p{
+		margin-bottom: 30px;
+	}
 
 .btn {
 	letter-spacing: .2em;
@@ -339,11 +354,11 @@ textarea.form-control {
 	margin: 4px 0 0;
 	border: none;
 
-}
+} /* ^BURGER BTN */
 
 .navbar-toggle .icon-bar {
 	background-color: #fff;
-}
+} /* ^BURGER BTN */
 
 @media (max-width: 767px) {
 	.header {
@@ -494,21 +509,6 @@ textarea.form-control {
 /* INNER END */
 /* ABOUT US START */
 
-.about-us blockquote {
-	padding: 0;
-	border: none;
-	font-size: 24px;
-	line-height: 1.6;
-	color: #777;
-}
-
-.about-us blockquote span {
-	font-size: 11px;
-	font-weight: 400;
-	letter-spacing: .2em;
-	text-transform: uppercase;
-}
-
 @media (max-width: 991px) {
 	.about-us blockquote {
 		margin-bottom: 30px;
@@ -579,21 +579,6 @@ textarea.form-control {
 
 .services .services-tabs ul.nav.nav-tabs.text-center {
 	margin-bottom: 75px;
-}
-
-.services blockquote {
-	border: none;
-	padding: 0;
-	font-size: 24px;
-	line-height: 1.6;
-	color: #777;
-}
-
-.services blockquote span {
-	font-size: 11px;
-	font-weight: 400;
-	letter-spacing: .2em;
-	text-transform: uppercase;
 }
 
 @media (max-width: 991px) {
@@ -735,7 +720,7 @@ textarea.form-control {
 	}
 }
 
-/* WHY CHOOSE US MEDIA RULES END *//* LOOK SOME STYLES IN DEF SECTION */
+/* WHY CHOOSE US MEDIA RULES END *//* ALSO LOOK SOME STYLES IN DEF SECTION */
 
 /* REVIEWS-CAROUSEL START */
 
@@ -914,8 +899,6 @@ textarea.form-control {
 	padding-top: 70px;
 }
 
-
-
 .small-section .form-group {
 	margin-bottom: 20px;
 }
@@ -1065,7 +1048,6 @@ textarea.form-control {
 	top: 50%;
 	transform: translateY(-50%) translateX(-50%);
 	left: 50%;
-
 }
 
 .on-map-text .title {
