@@ -19,6 +19,8 @@
     <div class="contact default-section">...</div>
     <div class="map">...</div>
 </div>
+<div class="footer">...</div>
+<div class="anchor-up">...</div>
 ```
 
 Основные DEFAULT COMPONENTS:
