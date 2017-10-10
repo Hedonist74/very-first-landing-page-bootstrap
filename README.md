@@ -1,7 +1,7 @@
 Практикую ReadMe
 ---------------
 
-Базовая структура
+Базовая Структура:
 ===========
 ```html
 <div class="header navbar-fixed-top">...</div>
@@ -10,7 +10,7 @@
     <div class="about-us default-section">...</div>
     <div class="services default-section  border-top">...</div>
     <div class="lets-talk black-bg">...</div>
-    <div class="portfolio">...</div>
+    <div class="portfolio default-section">...</div>
     <div class="start-project small-section black-bg text-center ">...</div>
     <div class="why-choose-us default-section ">...</div>
     <div class="reviews default-section ">...</div>
@@ -23,7 +23,7 @@
 <div class="anchor-up">...</div>
 ```
 
-Основные DEFAULT COMPONENTS:
+Основные Default Components:
 ================
 
   * .main - Родительский баг фикс бокового отступа от карусельной стрелки
@@ -31,9 +31,9 @@
   * .title - Основные заголовки
   * .title-small - Маленькие заголовки (..Why Choose Us, Footer)
   * .title-grey - Серый заголовок (..Stay Informed)
-  * ..и так далее
+  * .. и так далее
 
-КОНТРОЛЬНЫЕ ТОЧКИ:
+Контрольные Точки:
 -----------------------------
 
 |Кому|max-width|
@@ -61,3 +61,5 @@
 |.contact-item-content|1199|
 |.contact-item|991|
 |.form-col|599|
+
+Начиная с 16-го коммита точек @media больше чем представлено в списке выше.
